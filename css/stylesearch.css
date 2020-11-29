@@ -1,0 +1,51 @@
+body{
+    background: url('../img/check.jpg')
+    no-repeat center center/cover;
+    font-family:arial;
+}
+.maincontainer{
+    margin-top:200px;
+    text-align: center;
+}
+.items-container{
+    
+    width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: 400px;
+
+}
+
+.article-container{
+    width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: 400px;
+    margin-top:50px;
+    text-align:center;
+}
+
+
+input{
+    padding: 0px 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+}
+
+button{
+    width: 100px;
+    height:44px;
+    font-size:22px;
+}
+
+a{
+    color:green;
+    font-size:20px;
+    text-decoration:none;
+}
+
+a:hover{
+    color:orangered;
+}
+

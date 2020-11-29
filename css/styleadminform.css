@@ -1,0 +1,82 @@
+body {
+	background: url('../img/check.jpg')
+      no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.adminform {
+    text-align: center;
+	width: 500px;
+	border: 2px solid rgb(41, 38, 37);
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+.adminform h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.adminform input {
+	display: block;
+	border: 2px solid black;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.adminform label {
+	color: black;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.adminform button {
+	background: rgb(34, 28, 28);
+	padding: 15px 20px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+    border: none;
+    font-size:20px;
+    font-weight: bold;
+}
+.adminform button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.adminform h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.adminform a {
+	background: rgb(34, 28, 28);
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+.adminform a:hover{
+	opacity: .7;
+}

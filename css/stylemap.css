@@ -1,0 +1,13 @@
+body {
+	background: url('../img/check.jpg')
+      no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+h4{
+    color: rgb(2, 60, 68);
+}
